@@ -187,6 +187,5 @@ if __name__ == '__main__':
     time.sleep(60)
     Promos5 = StartScrape("https://www.tcgplayer.com/search/one-piece-card-game/one-piece-promotion-cards", "one-piece-promotion-cards", 33)
 
-    # Makes it easier to call the pushtodbTBL function when we want to load a new database table
     finalDF = pd.concat([Promos1, Promos2, Promos3, Promos4, Promos5])
     print(finalDF.count())

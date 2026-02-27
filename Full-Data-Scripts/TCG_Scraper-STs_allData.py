@@ -405,7 +405,6 @@ if __name__ == '__main__':
     ST29 = StartScrape("https://www.tcgplayer.com/search/one-piece-card-game/starter-deck-29-egghead", "starter-deck-29-egghead", "ST-29")
 
     # Combines all of the card dataframes for each set into one large data frame.
-    # Makes it easier to call the pushtodbTBL function when we want to load a new database table
     finalDF = pd.concat([ST29])
 
     print(finalDF)
