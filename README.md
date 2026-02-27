@@ -17,4 +17,18 @@ There are two versions for each script:
 
 # How to Setup and Run
 
+Will need the following installed:
 
+  1. Python
+  2. Some sort of IDE (VS Code or Pycharm works fine)
+  3. Ensure pip is installed to download the proper libs for your project env
+
+Once you have Python installed and are in your IDE of choice, clone the repo and open the files.
+
+  - Open a terminal quick and make a new virtual env (optional)
+  - If you already have one, just start your virtual env
+  - Then run pip install -r requirement.txt
+
+(This should install the right libs for you in your virtual env)
+
+Then enjoy running the scripts!
